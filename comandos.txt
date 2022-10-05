@@ -1,0 +1,45 @@
+COMANDOS DE GIT BASH:
+1.- cd nombre_carpeta/ = ingresamos a una carpeta especifica.
+2.- mkdir nombre_carpeta = creamos una carpeta donde queramos.
+3.- touch nombre_archivo.extension = podemos crear un archivo dentro de una carpeta.
+4.- ls enter= visualizamos los archivos que contienen una carpeta.
+5.- ls -al enter= visualizamos todo hasta lo oculto, tambien podemos ejecutar ls -l y ls -a.
+6.- cd .. enter= regresamos a una carpeta anterior.
+7.- cat nombre_archivo.extension= nos muestra lo que contiene un archivo especifico.
+8.- history enter= nos muestra todos los comandos ejecutados desde la instalacion de git bash. 
+9.- !numero de history enter= me ejecuta la linea de codigo de dicho numero mostrado en el history. 
+10.- pwd enter = me muestra la ruta donde estoy actualmente en git bash.
+11.- exit enter = salgo de git bash.
+12.- clear  o ctrl +l = nos limpia la ventana de comandos de git bash.
+13.- rm nombre_archivo.extension enter = este comando elimina el archivo escojido, NOTA IMPORTANTE, tener mucho cuidado con este comando ya que pueden borrar hasta el disco duro completo.
+14.- git init enter= inicializamos un repositorio local dentro de la ruta de la carpeta.
+15.- code enter = nos abre el VisualStudio Code.
+16.- git status enter= nos muestra el estado de la rama en la cual nos ubicamos.
+17.- git add nombre_archivo.extension = agrega el archivo para que git lo pueda revisar previa ejecucion del commit y posteriormente levantarlo al repositorio.
+18.- git rm --cached nombre_archivo.extension = este comando se utiliza para eliminar lo agregado en el punto 17 con el git add.
+19.- git commit -m "colocamos un mensaje" enter = este comando nos sirve para levantar el archivo al repositorio, le agregamos un mensaje para tener un control de lo que estamos haciendo.
+20.- git config enter = nos muestra todas las configuraciones que tiene git.
+21.- git config --list enter= nos muestra las configuraciones por defecto de git y alli tambien se visualiza el user.name y el user.email.
+22.- git config --list --show-origin enter = podras visualizar donde estan las configuraciones guardadas.
+23.-git log nombre_archivo.extension enter = este comando nos mostrara el historial del archivo en mencion ya subido al repositorio, podras visualizar las modificaciones, las veces que hicistes commit etc.
+23.- git config --global user.name "Diego Eduardo Ochoa Orellana"= con este comando configuras tu usuario PREVIO AL COMMIT, en mi caso ya esta configurado.
+24.- git config --global user.email "diegoochoaorellana@gmail.com"= con este comando configuras tu email PREVIO AL COMMIT, en mi caso ya esta configurado.
+25.- git show nombre_archivo.extension enter = sirve para mostrar los cambio realizados linea por linea(pero no funciona en mi git bash)
+26.- git add . enter= este comando agrega todos los archivos por agregar al repositorio.
+27.-git diff da63d72d3184f03f3d2ff2ddd362603c4ac237b8  e9a493fa6475c0d2260d77c32a03 = con este comando puedo comparar 2 series de commits, y ver que modificaciones se realizaron entre los commits, etc.
+28.- Presiona la tecla Q = para salir del git diff o algun otro comando que no puedas salir
+29.- git reset da63d72d3184f03f3d2ff2ddd362603c4ac237b8(numero del commit) --hard = esta linea de comando sirve para regresar a una version anterior del archivo en su totalidad, osea que la ultima modificacion que hicistes lo regresa al penultimo commit.
+30.- git reset da63d72d3184f03f3d2ff2ddd362603c4ac237b8(numero del commit) --soft = esta linea de comando sirve para regresar a una version anterior del archivo parcialmente, osea que la ultima modificacion que hicistes lo regresa al penultimo commit pero lo deja en stage, osea el git add no lo elimina, lo deja reservado alli para un proximo commit.
+31.-
+32.-
+33.-
+34.-
+35.-
+36.-
+37.-
+
+
+
+
+
+
